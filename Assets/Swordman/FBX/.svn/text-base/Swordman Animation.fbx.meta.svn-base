@@ -1,0 +1,1973 @@
+fileFormatVersion: 2
+guid: 8f6323eba180af44abf3ea4d99b3e9b9
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: ArmLeft
+    100002: ArmRight
+    100004: body
+    100006: chest
+    100008: footBotL
+    100010: footBotR
+    100012: footTopL
+    100014: footTopR
+    100016: FrontArmLeft
+    100018: FrontArmRight
+    100020: gloveLeft
+    100022: gloveRight
+    100024: HandLeft
+    100026: HandRight
+    100028: head_knight
+    100030: joint12
+    100032: joint17
+    100034: joint21
+    100036: joint22
+    100038: joint23
+    100040: joint24
+    100042: joint28
+    100044: joint29
+    100046: joint3
+    100048: joint30
+    100050: joint31
+    100052: joint32
+    100054: joint33
+    100056: joint6
+    100058: joint7
+    100060: legBotL
+    100062: legBotR
+    100064: legTopL
+    100066: legTopR
+    100068: mainBody
+    100070: neck
+    100072: pelvisArmorFront
+    100074: pelvisArmorLeft
+    100076: pelvisArmorRight
+    100078: pivot
+    100080: //RootNode
+    100082: weaponShield
+    100084: weaponSword1
+    400000: ArmLeft
+    400002: ArmRight
+    400004: body
+    400006: chest
+    400008: footBotL
+    400010: footBotR
+    400012: footTopL
+    400014: footTopR
+    400016: FrontArmLeft
+    400018: FrontArmRight
+    400020: gloveLeft
+    400022: gloveRight
+    400024: HandLeft
+    400026: HandRight
+    400028: head_knight
+    400030: joint12
+    400032: joint17
+    400034: joint21
+    400036: joint22
+    400038: joint23
+    400040: joint24
+    400042: joint28
+    400044: joint29
+    400046: joint3
+    400048: joint30
+    400050: joint31
+    400052: joint32
+    400054: joint33
+    400056: joint6
+    400058: joint7
+    400060: legBotL
+    400062: legBotR
+    400064: legTopL
+    400066: legTopR
+    400068: mainBody
+    400070: neck
+    400072: pelvisArmorFront
+    400074: pelvisArmorLeft
+    400076: pelvisArmorRight
+    400078: pivot
+    400080: //RootNode
+    400082: weaponShield
+    400084: weaponSword1
+    4300000: head_knight
+    4300002: pelvisArmorFront
+    4300004: pelvisArmorRight
+    4300006: pelvisArmorLeft
+    4300008: gloveRight
+    4300010: gloveLeft
+    4300012: mainBody
+    4300014: weaponShield
+    4300016: weaponSword1
+    7400000: Take 001
+    7400002: idle normal
+    7400004: idle battle
+    7400006: walk
+    7400008: run normal
+    7400010: run attack
+    7400012: jump1
+    7400014: jump2
+    7400016: attack1
+    7400018: attack2
+    7400020: defend
+    7400022: get hit
+    7400024: die
+    9500000: //RootNode
+    13700000: gloveLeft
+    13700002: gloveRight
+    13700004: head_knight
+    13700006: mainBody
+    13700008: pelvisArmorFront
+    13700010: pelvisArmorLeft
+    13700012: pelvisArmorRight
+    13700014: weaponShield
+    13700016: weaponSword1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle normal
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gloveLeft
+        weight: 1
+      - path: gloveRight
+        weight: 1
+      - path: head_knight
+        weight: 1
+      - path: mainBody
+        weight: 1
+      - path: pelvisArmorFront
+        weight: 1
+      - path: pelvisArmorLeft
+        weight: 1
+      - path: pelvisArmorRight
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/body/joint3
+        weight: 1
+      - path: pivot/body/joint3/chest
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21/joint22
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23/joint24
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28/joint29
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30/joint31
+        weight: 1
+      - path: pivot/body/joint3/chest/neck
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6/joint7
+        weight: 1
+      - path: pivot/body/joint32
+        weight: 1
+      - path: pivot/body/joint32/joint33
+        weight: 1
+      - path: pivot/body/legTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL/joint12
+        weight: 1
+      - path: pivot/body/legTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR/joint17
+        weight: 1
+      - path: weaponShield
+        weight: 1
+      - path: weaponSword1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle battle
+      takeName: Take 001
+      firstFrame: 21
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gloveLeft
+        weight: 1
+      - path: gloveRight
+        weight: 1
+      - path: head_knight
+        weight: 1
+      - path: mainBody
+        weight: 1
+      - path: pelvisArmorFront
+        weight: 1
+      - path: pelvisArmorLeft
+        weight: 1
+      - path: pelvisArmorRight
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/body/joint3
+        weight: 1
+      - path: pivot/body/joint3/chest
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21/joint22
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23/joint24
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28/joint29
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30/joint31
+        weight: 1
+      - path: pivot/body/joint3/chest/neck
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6/joint7
+        weight: 1
+      - path: pivot/body/joint32
+        weight: 1
+      - path: pivot/body/joint32/joint33
+        weight: 1
+      - path: pivot/body/legTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL/joint12
+        weight: 1
+      - path: pivot/body/legTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR/joint17
+        weight: 1
+      - path: weaponShield
+        weight: 1
+      - path: weaponSword1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 41
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Runspeed
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: .800000012
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: .800000012
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gloveLeft
+        weight: 1
+      - path: gloveRight
+        weight: 1
+      - path: head_knight
+        weight: 1
+      - path: mainBody
+        weight: 1
+      - path: pelvisArmorFront
+        weight: 1
+      - path: pelvisArmorLeft
+        weight: 1
+      - path: pelvisArmorRight
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/body/joint3
+        weight: 1
+      - path: pivot/body/joint3/chest
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21/joint22
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23/joint24
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28/joint29
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30/joint31
+        weight: 1
+      - path: pivot/body/joint3/chest/neck
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6/joint7
+        weight: 1
+      - path: pivot/body/joint32
+        weight: 1
+      - path: pivot/body/joint32/joint33
+        weight: 1
+      - path: pivot/body/legTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL/joint12
+        weight: 1
+      - path: pivot/body/legTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR/joint17
+        weight: 1
+      - path: weaponShield
+        weight: 1
+      - path: weaponSword1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run normal
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Runspeed
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 4
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 4
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gloveLeft
+        weight: 1
+      - path: gloveRight
+        weight: 1
+      - path: head_knight
+        weight: 1
+      - path: mainBody
+        weight: 1
+      - path: pelvisArmorFront
+        weight: 1
+      - path: pelvisArmorLeft
+        weight: 1
+      - path: pelvisArmorRight
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/body/joint3
+        weight: 1
+      - path: pivot/body/joint3/chest
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21/joint22
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23/joint24
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28/joint29
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30/joint31
+        weight: 1
+      - path: pivot/body/joint3/chest/neck
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6/joint7
+        weight: 1
+      - path: pivot/body/joint32
+        weight: 1
+      - path: pivot/body/joint32/joint33
+        weight: 1
+      - path: pivot/body/legTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL/joint12
+        weight: 1
+      - path: pivot/body/legTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR/joint17
+        weight: 1
+      - path: weaponShield
+        weight: 1
+      - path: weaponSword1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run attack
+      takeName: Take 001
+      firstFrame: 81
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Runspeed
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 5
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 5
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gloveLeft
+        weight: 1
+      - path: gloveRight
+        weight: 1
+      - path: head_knight
+        weight: 1
+      - path: mainBody
+        weight: 1
+      - path: pelvisArmorFront
+        weight: 1
+      - path: pelvisArmorLeft
+        weight: 1
+      - path: pelvisArmorRight
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/body/joint3
+        weight: 1
+      - path: pivot/body/joint3/chest
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21/joint22
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23/joint24
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28/joint29
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30/joint31
+        weight: 1
+      - path: pivot/body/joint3/chest/neck
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6/joint7
+        weight: 1
+      - path: pivot/body/joint32
+        weight: 1
+      - path: pivot/body/joint32/joint33
+        weight: 1
+      - path: pivot/body/legTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL/joint12
+        weight: 1
+      - path: pivot/body/legTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR/joint17
+        weight: 1
+      - path: weaponShield
+        weight: 1
+      - path: weaponSword1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump1
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Runspeed
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 4
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/body/joint3
+        weight: 1
+      - path: pivot/body/joint3/chest
+        weight: 1
+      - path: pivot/body/joint3/chest/neck
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6/joint7
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21/joint22
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23/joint24
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28/joint29
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30/joint31
+        weight: 1
+      - path: pivot/body/legTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL/joint12
+        weight: 1
+      - path: pivot/body/legTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR/joint17
+        weight: 1
+      - path: pivot/body/joint32
+        weight: 1
+      - path: pivot/body/joint32/joint33
+        weight: 1
+      - path: head_knight
+        weight: 1
+      - path: pelvisArmorFront
+        weight: 1
+      - path: pelvisArmorRight
+        weight: 1
+      - path: pelvisArmorLeft
+        weight: 1
+      - path: gloveRight
+        weight: 1
+      - path: gloveLeft
+        weight: 1
+      - path: mainBody
+        weight: 1
+      - path: weaponShield
+        weight: 1
+      - path: weaponSword1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump2
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Runspeed
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 4
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .763142526
+            value: 2.9782877
+            inSlope: -4.28019094
+            outSlope: -4.28019094
+            tangentMode: 0
+          - time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/body/joint3
+        weight: 1
+      - path: pivot/body/joint3/chest
+        weight: 1
+      - path: pivot/body/joint3/chest/neck
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6/joint7
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21/joint22
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23/joint24
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28/joint29
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30/joint31
+        weight: 1
+      - path: pivot/body/legTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL/joint12
+        weight: 1
+      - path: pivot/body/legTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR/joint17
+        weight: 1
+      - path: pivot/body/joint32
+        weight: 1
+      - path: pivot/body/joint32/joint33
+        weight: 1
+      - path: head_knight
+        weight: 1
+      - path: pelvisArmorFront
+        weight: 1
+      - path: pelvisArmorRight
+        weight: 1
+      - path: pelvisArmorLeft
+        weight: 1
+      - path: gloveRight
+        weight: 1
+      - path: gloveLeft
+        weight: 1
+      - path: mainBody
+        weight: 1
+      - path: weaponShield
+        weight: 1
+      - path: weaponSword1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack1
+      takeName: Take 001
+      firstFrame: 141
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gloveLeft
+        weight: 1
+      - path: gloveRight
+        weight: 1
+      - path: head_knight
+        weight: 1
+      - path: mainBody
+        weight: 1
+      - path: pelvisArmorFront
+        weight: 1
+      - path: pelvisArmorLeft
+        weight: 1
+      - path: pelvisArmorRight
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/body/joint3
+        weight: 1
+      - path: pivot/body/joint3/chest
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21/joint22
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23/joint24
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28/joint29
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30/joint31
+        weight: 1
+      - path: pivot/body/joint3/chest/neck
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6/joint7
+        weight: 1
+      - path: pivot/body/joint32
+        weight: 1
+      - path: pivot/body/joint32/joint33
+        weight: 1
+      - path: pivot/body/legTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL/joint12
+        weight: 1
+      - path: pivot/body/legTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR/joint17
+        weight: 1
+      - path: weaponShield
+        weight: 1
+      - path: weaponSword1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack2
+      takeName: Take 001
+      firstFrame: 161
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gloveLeft
+        weight: 1
+      - path: gloveRight
+        weight: 1
+      - path: head_knight
+        weight: 1
+      - path: mainBody
+        weight: 1
+      - path: pelvisArmorFront
+        weight: 1
+      - path: pelvisArmorLeft
+        weight: 1
+      - path: pelvisArmorRight
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/body/joint3
+        weight: 1
+      - path: pivot/body/joint3/chest
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21/joint22
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23/joint24
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28/joint29
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30/joint31
+        weight: 1
+      - path: pivot/body/joint3/chest/neck
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6/joint7
+        weight: 1
+      - path: pivot/body/joint32
+        weight: 1
+      - path: pivot/body/joint32/joint33
+        weight: 1
+      - path: pivot/body/legTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL/joint12
+        weight: 1
+      - path: pivot/body/legTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR/joint17
+        weight: 1
+      - path: weaponShield
+        weight: 1
+      - path: weaponSword1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: defend
+      takeName: Take 001
+      firstFrame: 181
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/body/joint3
+        weight: 1
+      - path: pivot/body/joint3/chest
+        weight: 1
+      - path: pivot/body/joint3/chest/neck
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6/joint7
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21/joint22
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23/joint24
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28/joint29
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30/joint31
+        weight: 1
+      - path: pivot/body/legTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL/joint12
+        weight: 1
+      - path: pivot/body/legTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR/joint17
+        weight: 1
+      - path: pivot/body/joint32
+        weight: 1
+      - path: pivot/body/joint32/joint33
+        weight: 1
+      - path: head_knight
+        weight: 1
+      - path: pelvisArmorFront
+        weight: 1
+      - path: pelvisArmorRight
+        weight: 1
+      - path: pelvisArmorLeft
+        weight: 1
+      - path: gloveRight
+        weight: 1
+      - path: gloveLeft
+        weight: 1
+      - path: mainBody
+        weight: 1
+      - path: weaponShield
+        weight: 1
+      - path: weaponSword1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: get hit
+      takeName: Take 001
+      firstFrame: 201
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/body/joint3
+        weight: 1
+      - path: pivot/body/joint3/chest
+        weight: 1
+      - path: pivot/body/joint3/chest/neck
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6/joint7
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21/joint22
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23/joint24
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28/joint29
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30/joint31
+        weight: 1
+      - path: pivot/body/legTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL/joint12
+        weight: 1
+      - path: pivot/body/legTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR/joint17
+        weight: 1
+      - path: pivot/body/joint32
+        weight: 1
+      - path: pivot/body/joint32/joint33
+        weight: 1
+      - path: head_knight
+        weight: 1
+      - path: pelvisArmorFront
+        weight: 1
+      - path: pelvisArmorRight
+        weight: 1
+      - path: pelvisArmorLeft
+        weight: 1
+      - path: gloveRight
+        weight: 1
+      - path: gloveLeft
+        weight: 1
+      - path: mainBody
+        weight: 1
+      - path: weaponShield
+        weight: 1
+      - path: weaponSword1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: die
+      takeName: Take 001
+      firstFrame: 221
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/body
+        weight: 1
+      - path: pivot/body/joint3
+        weight: 1
+      - path: pivot/body/joint3/chest
+        weight: 1
+      - path: pivot/body/joint3/chest/neck
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6
+        weight: 1
+      - path: pivot/body/joint3/chest/neck/joint6/joint7
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint21/joint22
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmLeft/FrontArmLeft/HandLeft/joint23/joint24
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint28/joint29
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30
+        weight: 1
+      - path: pivot/body/joint3/chest/ArmRight/FrontArmRight/HandRight/joint30/joint31
+        weight: 1
+      - path: pivot/body/legTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL
+        weight: 1
+      - path: pivot/body/legTopL/legBotL/footTopL/footBotL/joint12
+        weight: 1
+      - path: pivot/body/legTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR
+        weight: 1
+      - path: pivot/body/legTopR/legBotR/footTopR/footBotR/joint17
+        weight: 1
+      - path: pivot/body/joint32
+        weight: 1
+      - path: pivot/body/joint32/joint33
+        weight: 1
+      - path: head_knight
+        weight: 1
+      - path: pelvisArmorFront
+        weight: 1
+      - path: pelvisArmorRight
+        weight: 1
+      - path: pelvisArmorLeft
+        weight: 1
+      - path: gloveRight
+        weight: 1
+      - path: gloveLeft
+        weight: 1
+      - path: mainBody
+        weight: 1
+      - path: weaponShield
+        weight: 1
+      - path: weaponSword1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 1
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: body
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: legTopL
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: legTopR
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: legBotL
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: legBotR
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: footTopL
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: footTopR
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint3
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint6
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ArmLeft
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ArmRight
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FrontArmLeft
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FrontArmRight
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HandLeft
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HandRight
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: footBotL
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: footBotR
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Swordman Animation(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gloveLeft
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gloveRight
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_knight
+      position: {x: -.00470783887, y: -.0149412258, z: .0214436781}
+      rotation: {x: .0608274043, y: .0623598471, z: -.00380769046, w: .996191144}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: mainBody
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pelvisArmorFront
+      position: {x: -0, y: -.0834717825, z: -.0193796754}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1.35031176, y: 1.35031176, z: 1.35031176}
+      transformModified: 1
+    - name: pelvisArmorLeft
+      position: {x: -.0465766937, y: -.246123865, z: .0210976135}
+      rotation: {x: .0504693054, y: .722986102, z: -.168097436, w: .668196976}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: pelvisArmorRight
+      position: {x: .0449810922, y: -.246123865, z: .0210976135}
+      rotation: {x: .0504693054, y: .722986102, z: -.168097436, w: .668196976}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: pivot
+      position: {x: 0, y: .219999999, z: 0}
+      rotation: {x: 0, y: -0, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: body
+      position: {x: -.0899999961, y: 0, z: 0}
+      rotation: {x: -.705327868, y: .0501261055, z: .0501261055, w: .705327868}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint3
+      position: {x: -.0707106739, y: 0, z: 0}
+      rotation: {x: .705327868, y: -.0501261055, z: -.0501261055, w: .705327868}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest
+      position: {x: -.099999994, y: 0, z: -.00999999978}
+      rotation: {x: 0, y: -.0470874384, z: -0, w: .998890758}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ArmLeft
+      position: {x: -.0796452388, y: -.0799999982, z: .00752563355}
+      rotation: {x: .500840843, y: .498948872, z: .45199731, w: .543973327}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FrontArmLeft
+      position: {x: -.110761493, y: -.010977813, z: .0143720862}
+      rotation: {x: -.494047135, y: .0445914418, z: .0423559919, w: .867257237}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HandLeft
+      position: {x: -.100498751, y: 0, z: 0}
+      rotation: {x: -.135824353, y: .166143283, z: .14443709, w: .96596384}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint21
+      position: {x: -.0509901941, y: 1.1883417e-16, z: -9.35716635e-18}
+      rotation: {x: .0389579721, y: .115805984, z: .125826985, w: .984499276}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint22
+      position: {x: -.0458257571, y: 1.05471186e-17, z: 1.11022296e-17}
+      rotation: {x: .0251802374, y: -.128240913, z: -.843248725, w: .521394134}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint23
+      position: {x: -.0333397426, y: -.0137281297, z: .0399999991}
+      rotation: {x: .0850162208, y: .296098799, z: .258174002, w: .915665865}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint24
+      position: {x: -.0282842703, y: -7.1609383e-17, z: -1.55431224e-17}
+      rotation: {x: -.0377087183, y: -.380821079, z: .0910368934, w: .919383347}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ArmRight
+      position: {x: -.0796452388, y: .0779995471, z: .00752563355}
+      rotation: {x: .705199778, y: .701481104, z: -.102173887, w: -.0133443968}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FrontArmRight
+      position: {x: .109343477, y: .00201417715, z: -.0123782894}
+      rotation: {x: .175465494, y: .0645006001, z: -.0175993927, w: .982212722}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HandRight
+      position: {x: .100498751, y: 0, z: 0}
+      rotation: {x: .330091536, y: -.112052038, z: .024746554, w: .936948001}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint28
+      position: {x: .0509901941, y: 1.91846525e-15, z: 2.82557386e-17}
+      rotation: {x: .0389579721, y: .115805984, z: .125826985, w: .984499276}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint29
+      position: {x: .0458257571, y: 1.70530253e-15, z: -1.68753898e-16}
+      rotation: {x: .0251802374, y: -.128240913, z: -.843248725, w: .521394134}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint30
+      position: {x: .0333397426, y: .0137281297, z: -.0399999991}
+      rotation: {x: .0850162208, y: .296098799, z: .258174002, w: .915665865}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint31
+      position: {x: .0282842983, y: -6.07616641e-07, z: 2.11077179e-07}
+      rotation: {x: -.0377087183, y: -.380821079, z: .0910368934, w: .919383347}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: neck
+      position: {x: -.101437956, y: 2.26711363e-17, z: -.010504269}
+      rotation: {x: 0, y: .0470874384, z: -0, w: .998890758}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint6
+      position: {x: -.0387074947, y: 1.22305064e-17, z: .00794441346}
+      rotation: {x: -.496866703, y: .407981426, z: .498838782, w: .58123529}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint7
+      position: {x: -.0786652192, y: -1.3322676e-17, z: 2.23190349e-18}
+      rotation: {x: .155849725, y: -.689717948, z: .155849725, w: .689717948}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint32
+      position: {x: -.0327689573, y: -.097705029, z: 2.21083673e-16}
+      rotation: {x: 0, y: 0, z: .996735156, w: .0807406828}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint33
+      position: {x: -.177497551, y: 6.66133775e-17, z: 2.40311717e-17}
+      rotation: {x: -0, y: 0, z: .996735156, w: -.0807406828}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: legTopL
+      position: {x: -.0197989885, y: .00282842712, z: -.049999997}
+      rotation: {x: .0389877968, y: -.492335677, z: .850050271, w: .183030292}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: legBotL
+      position: {x: -.151657507, y: 0, z: 0}
+      rotation: {x: .814968288, y: .305081218, z: -.017953828, w: -.492371619}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: footTopL
+      position: {x: -.158113882, y: 0, z: 0}
+      rotation: {x: .68949455, y: .165890172, z: .103554405, w: .697391093}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: footBotL
+      position: {x: -.0299999993, y: 7.66951679e-19, z: 0}
+      rotation: {x: .5, y: .5, z: -.5, w: .5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint12
+      position: {x: -.0599999987, y: 1.3322676e-17, z: 2.95822833e-33}
+      rotation: {x: .5, y: -.5, z: -.5, w: .5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: legTopR
+      position: {x: -.0197989885, y: .00282842712, z: .049999997}
+      rotation: {x: -.492335707, y: -.0389878042, z: -.183030382, w: .850050211}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: legBotR
+      position: {x: .151657507, y: 0, z: 0}
+      rotation: {x: .814968288, y: .305081218, z: -.017953828, w: -.492371619}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: footTopR
+      position: {x: .158113882, y: 0, z: 0}
+      rotation: {x: .689494431, y: .165890098, z: .103554465, w: .697391152}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: footBotR
+      position: {x: .0299999993, y: 0, z: 0}
+      rotation: {x: .5, y: .5, z: -.5, w: .5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint17
+      position: {x: .0599999987, y: 2.10942372e-17, z: 1.9007017e-15}
+      rotation: {x: .5, y: -.5, z: -.5, w: .5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: weaponShield
+      position: {x: -.309566915, y: .520543754, z: -.140783682}
+      rotation: {x: -.128363162, y: .690321088, z: .700704932, w: -.12646094}
+      scale: {x: 3.77207804, y: 3.7720778, z: 3.7720778}
+      transformModified: 1
+    - name: weaponSword1
+      position: {x: .274585158, y: .362996578, z: -.10250017}
+      rotation: {x: .111515723, y: .760140002, z: .6341663, w: .087089844}
+      scale: {x: 3.41733122, y: 3.41733146, z: 3.41733146}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
