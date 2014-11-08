@@ -10,17 +10,8 @@
 /*.svn/*
 */.svn/*
 
-
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 
-Assets/Models/Materials/.svn/prop-base/19___Default_Ã©Â¢ÂÃ¨ÂÂ².mat.svn-base
-
-Assets/Models/Materials/.svn/text-base/19___Default_Ã©Â¢ÂÃ¨ÂÂ².mat.meta.svn-base
-
-Assets/Models/Materials/.svn/text-base/19___Default_Ã©Â¢ÂÃ¨ÂÂ².mat.svn-base
-
-Assets/Models/Materials/19___Default_Ã©Â¢ÂÃ¨ÂÂ².mat.meta
-
-Assets/Models/Materials/19___Default_Ã©Â¢ÂÃ¨ÂÂ².mat
+*.svn-base
