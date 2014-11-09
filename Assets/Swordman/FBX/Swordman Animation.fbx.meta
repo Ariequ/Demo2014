@@ -382,23 +382,7 @@ ModelImporter:
       heightFromFeet: 1
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves:
-      - name: Runspeed
-        curve:
-          serializedVersion: 2
-          curve:
-          - time: 0
-            value: .800000012
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-          - time: 1
-            value: .800000012
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-          preInfinity: 2
-          postInfinity: 2
+      curves: []
       events: []
       transformMask:
       - path: 
@@ -510,23 +494,7 @@ ModelImporter:
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves:
-      - name: Runspeed
-        curve:
-          serializedVersion: 2
-          curve:
-          - time: 0
-            value: 4
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-          - time: 1
-            value: 4
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-          preInfinity: 2
-          postInfinity: 2
+      curves: []
       events: []
       transformMask:
       - path: 
@@ -638,23 +606,7 @@ ModelImporter:
       heightFromFeet: 1
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves:
-      - name: Runspeed
-        curve:
-          serializedVersion: 2
-          curve:
-          - time: 0
-            value: 5
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-          - time: 1
-            value: 5
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-          preInfinity: 2
-          postInfinity: 2
+      curves: []
       events: []
       transformMask:
       - path: 
