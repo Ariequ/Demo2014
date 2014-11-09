@@ -24,8 +24,8 @@ public class CameraDistanceController : MonoBehaviour {
 		float charactorAnimatorSpeed = charactorAnimator.GetFloat("Speed");
 
 		float speed = Time.deltaTime * smoothSpeed;
-		float distance = 4f;
-		float height = 2f;
+//		float distance = 4f;
+//		float height = 2f;
 
 		if (charactorAnimatorSpeed > 0)
 		{

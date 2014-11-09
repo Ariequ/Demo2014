@@ -138,6 +138,8 @@ public class CharactorController : MonoBehaviour
 		foreach (FollowingController follower in fowllowers) {
 			follower.StartCoroutine ("StartMoving");
 		}
+
+
 	}
 
 	public void SwitchMoving ()

@@ -36,14 +36,14 @@ public class BattleSkillController : MonoBehaviour {
 
 			if(position.y < -0.3f)
 			{
-				CharactorController[] charactorControllers = swordmans.GetComponentsInChildren<CharactorController>();
+				Controller[] charactorControllers = swordmans.GetComponentsInChildren<Controller>();
 
-				foreach(CharactorController charactorController in charactorControllers)
+				foreach(Controller charactorController in charactorControllers)
 				{
 					charactorController.StartMoving();
 				}
 
-				Camera.main.GetComponent<CameraComponentManager>().StartFollowMode();
+//				Camera.main.GetComponent<CameraComponentManager>().StartFollowMode();
 
 				uiRoot.FindChild("Movement").gameObject.SetActive(true);
 
@@ -54,33 +54,33 @@ public class BattleSkillController : MonoBehaviour {
 
 	void OnTriggerEnter(Collider collider)			// TODO zhi xing le 3 ci
 	{
-		uiRoot.FindChild("FinalAttack").gameObject.SetActive(true);
+		uiRoot.FindChild("Attack").gameObject.SetActive(true);
 		uiRoot.FindChild("Movement").gameObject.SetActive(false);
 
-		Camera.main.GetComponent<CameraComponentManager>().targetAnchor = transform.FindChild("CameraAnchor");
+//		Camera.main.GetComponent<CameraComponentManager>().targetAnchor = transform.FindChild("CameraAnchor");
 	}
 	
 	public void StartSkill_1()
 	{
-		GameObject skillInstance = Instantiate(effect_1, GetTerrainPosition(), Quaternion.identity) as GameObject;
+		Instantiate(effect_1, GetTerrainPosition(), Quaternion.identity);
 
 		StartCoroutine(OnGetHit("GetHit", 1.0f));
 	}
 
 	public void StartSkill_2()
 	{
-		GameObject skillInstance = Instantiate(effect_2, GetTerrainPosition(), Quaternion.identity) as GameObject;
+		Instantiate(effect_2, GetTerrainPosition(), Quaternion.identity);
 
 		StartCoroutine(OnGetHit("GetHit", 1.0f));
 	}
 
 	public void JoinAttack()
 	{
-		GameObject skillInstance = Instantiate(joinAttack, GetTerrainPosition(), Quaternion.identity) as GameObject;
+		Instantiate(joinAttack, GetTerrainPosition(), Quaternion.identity);
 
-		CharactorController[] charactorControllers = swordmans.GetComponentsInChildren<CharactorController>();
+		Controller[] charactorControllers = swordmans.GetComponentsInChildren<Controller>();
 		
-		foreach(CharactorController charactorController in charactorControllers)
+		foreach(Controller charactorController in charactorControllers)
 		{
 			charactorController.StopAttacking();
 		}
@@ -93,7 +93,7 @@ public class BattleSkillController : MonoBehaviour {
 	{
 		yield return new WaitForSeconds(0.5f);
 
-		uiRoot.FindChild("FinalAttack").gameObject.SetActive(false);
+		uiRoot.FindChild("Attack").gameObject.SetActive(false);
 		uiRoot.FindChild("Movement").gameObject.SetActive(true);
 	}
 
@@ -113,7 +113,7 @@ public class BattleSkillController : MonoBehaviour {
 
 	private IEnumerator DisappearMonsters()
 	{
-		uiRoot.FindChild("FinalAttack").gameObject.SetActive(false);
+		uiRoot.FindChild("Attack").gameObject.SetActive(false);
 
 		yield return new WaitForSeconds(5f);
 
@@ -123,7 +123,7 @@ public class BattleSkillController : MonoBehaviour {
 	private Vector3 GetTerrainPosition()
 	{
 		Vector3 position = transform.position;
-		position.y = terrainData.GetInterpolatedHeight(position.x / terrainData.size.x, position.z / terrainData.size.z) - 0.1f;
+//		position.y = terrainData.GetInterpolatedHeight(position.x / terrainData.size.x, position.z / terrainData.size.z) - 0.1f;
 
 		return position;
 	}
