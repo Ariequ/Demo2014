@@ -45,7 +45,7 @@ public class BattleSkillController : MonoBehaviour {
 
 //				Camera.main.GetComponent<CameraComponentManager>().StartFollowMode();
 
-				uiRoot.FindChild("Movement").gameObject.SetActive(true);
+//				uiRoot.FindChild("Movement").gameObject.SetActive(true);
 
 				Destroy(gameObject);
 			}
@@ -94,7 +94,7 @@ public class BattleSkillController : MonoBehaviour {
 		yield return new WaitForSeconds(0.5f);
 
 		uiRoot.FindChild("Attack").gameObject.SetActive(false);
-		uiRoot.FindChild("Movement").gameObject.SetActive(true);
+//		uiRoot.FindChild("Movement").gameObject.SetActive(true);
 	}
 
 	private IEnumerator OnGetHit(string animatorParam, float delay = 1.0f, int random = 3)

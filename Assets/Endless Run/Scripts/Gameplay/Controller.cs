@@ -789,11 +789,12 @@ public class Controller : MonoBehaviour
     IEnumerator MoveToEnemy(Collider collider)
     {
         Vector3 movingTarget = collider.transform.FindChild("Anchors").GetChild(this.AttackingIndex).position;
-        movingTarget.y = transform.position.y;
+
         Transform attackingTarget = collider.transform.FindChild("Monsters").GetChild(this.AttackingIndex);
 
         while (Mathf.Abs(transform.position.z - movingTarget.z) > 0.1)
         {
+			animator.SetFloat("Speed", 5f);
             iTween.MoveTo(gameObject, iTween.Hash("position", movingTarget, "time", 2f));
             yield return 1;
         }
@@ -817,6 +818,8 @@ public class Controller : MonoBehaviour
         iTween.MoveTo(gameObject, iTween.Hash("position", movingTarget, "time", 0.5f));
         GameAttribute.gameAttribute.isAttacking = false;
         transform.rotation = Quaternion.identity;
+		positionStand = Position.Middle;
+		countDeleyInput = 0;
 //      StartCoroutine(ContinueRun());
 
         foreach (Follow follow in follows)
