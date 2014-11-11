@@ -30,9 +30,8 @@ public class Follow : MonoBehaviour
         else
         {
             animator.SetFloat("Speed", -1);
+			characterController.Move(Vector3.down * 10 * Time.deltaTime);
         }
-
-        characterController.Move(Physics.gravity * Time.deltaTime);
     }
 
     IEnumerator ChangeMoveDir(Vector3 moveDir)

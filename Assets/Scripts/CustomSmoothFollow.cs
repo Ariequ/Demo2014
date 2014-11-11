@@ -74,6 +74,7 @@ public class CustomSmoothFollow : MonoBehaviour
 			// Set the position of the camera on the x-z plane to:
 			// distance meters behind the target
 			Vector3 position = target.position;
+			position.x = 0;
 			position -= currentRotation * Vector3.forward * distance;
 			
 			// Set the height of the camera
@@ -82,7 +83,7 @@ public class CustomSmoothFollow : MonoBehaviour
 			transform.position = position;
 			
 			// Always look at the target
-			transform.LookAt (target);
+//			transform.LookAt (target);
 		}
 	}
 }

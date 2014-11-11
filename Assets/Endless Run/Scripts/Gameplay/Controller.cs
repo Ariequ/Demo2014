@@ -100,7 +100,14 @@ public class Controller : MonoBehaviour
 
     public void StartMoving()
     {
+		if (!GameAttribute.gameAttribute.isPlaying)
+		{
         GameAttribute.gameAttribute.isPlaying = true;
+		}
+		else
+		{
+			Application.LoadLevel(0);
+		}
     }
 
     //Reset state,variable when character die
@@ -150,7 +157,10 @@ public class Controller : MonoBehaviour
             else
             {
 //              animation.Stop();
-            }
+
+				characterController.Move(Vector3.down * gravity * Time.deltaTime);		
+
+			}
             yield return 0; 
         }
         StartCoroutine(MoveBack());
@@ -337,6 +347,8 @@ public class Controller : MonoBehaviour
                 {
 //                  animation.Stop();
 //                  animationManager.animationState = animationManager.TurnRight;
+					animator.SetTrigger("Jump " + 1);
+                    moveDir.y += 3;
                 }
                 positionStand = Position.Right; 
                 //Play sfx when step
@@ -349,6 +361,8 @@ public class Controller : MonoBehaviour
                 {
 //                  animation.Stop();
 //                  animationManager.animationState = animationManager.TurnLeft;
+					animator.SetTrigger("Jump " + 1);
+					moveDir.y += 3;
                 }
                 positionStand = Position.Left;  
                 //Play sfx when step
@@ -381,6 +395,9 @@ public class Controller : MonoBehaviour
                 {
 //                  animation.Stop();
 //                  animationManager.animationState = animationManager.TurnRight;
+					animator.SetTrigger("Jump " + 1);
+					moveDir.y += 3;
+
                 }
                 positionStand = Position.Middle;    
                 //Play sfx when step
@@ -407,6 +424,8 @@ public class Controller : MonoBehaviour
                 {
 //                  animation.Stop();
 //                  animationManager.animationState = animationManager.TurnLeft;
+					animator.SetTrigger("Jump " + 1);
+					moveDir.y += 3;
                 }
                 positionStand = Position.Middle;
                 //Play sfx when step
@@ -766,18 +785,18 @@ public class Controller : MonoBehaviour
         else
         if (collider.CompareTag("GameOverField"))
         {
-            GameAttribute.gameAttribute.isPlaying = false;
+            GameAttribute.gameAttribute.pause = true;
 
             animator.SetFloat("Speed", -1f);
             
-            GameObject uiCanvas = GameObject.Find("UI Canvas");
+//            GameObject uiCanvas = GameObject.Find("UI Canvas");
             
-            if (uiCanvas != null)
-            {
-                uiCanvas.SetActive(false);
-                
-                Debug.Log("Stopped !");
-            }
+//            if (uiCanvas != null)
+//            {
+//                uiCanvas.SetActive(false);
+//                
+//                Debug.Log("Stopped !");
+//            }
 
             foreach (Follow follow in follows)
             {
