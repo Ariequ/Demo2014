@@ -811,10 +811,10 @@ public class Controller : MonoBehaviour
 
         Transform attackingTarget = collider.transform.FindChild("Monsters").GetChild(this.AttackingIndex);
 
-        while (Mathf.Abs(transform.position.z - movingTarget.z) > 0.1)
+        while (Mathf.Abs(transform.position.z - movingTarget.z) > 0.5)
         {
 			animator.SetFloat("Speed", 5f);
-            iTween.MoveTo(gameObject, iTween.Hash("position", movingTarget, "time", 2f));
+            iTween.MoveTo(gameObject, iTween.Hash("position", movingTarget, "time", 5f));
             yield return 1;
         }
 
@@ -832,9 +832,9 @@ public class Controller : MonoBehaviour
     {
         animator.SetBool("Attacking", false);
 
-        Vector3 movingTarget = transform.position;
-        movingTarget.x = 0;
-        iTween.MoveTo(gameObject, iTween.Hash("position", movingTarget, "time", 0.5f));
+//        Vector3 movingTarget = transform.position;
+//        movingTarget.x = 0;
+//        iTween.MoveTo(gameObject, iTween.Hash("position", movingTarget, "time", 0.5f));
         GameAttribute.gameAttribute.isAttacking = false;
         transform.rotation = Quaternion.identity;
 		positionStand = Position.Middle;
@@ -843,7 +843,7 @@ public class Controller : MonoBehaviour
 
         foreach (Follow follow in follows)
         {
-            follow.StartCoroutine("BackToLine", movingTarget);
+            follow.StartCoroutine("StopAttack");
         }
     }
 

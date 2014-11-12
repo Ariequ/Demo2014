@@ -123,7 +123,7 @@ public class BattleSkillController : MonoBehaviour {
 	private Vector3 GetTerrainPosition()
 	{
 		Vector3 position = transform.position;
-//		position.y = terrainData.GetInterpolatedHeight(position.x / terrainData.size.x, position.z / terrainData.size.z) - 0.1f;
+		position.y = terrainData.GetInterpolatedHeight(position.x / terrainData.size.x, position.z / terrainData.size.z) - 0.1f;
 
 		return position;
 	}

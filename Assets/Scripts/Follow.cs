@@ -56,9 +56,9 @@ public class Follow : MonoBehaviour
 
         Transform attackingTarget = collider.transform.FindChild("Monsters").GetChild(this.AttackingIndex);
 
-        while (Mathf.Abs(transform.position.z - movingTarget.z) > 0.1)
+        while (Mathf.Abs(transform.position.z - movingTarget.z) > 0.5)
         {
-            iTween.MoveTo(gameObject, iTween.Hash("position", movingTarget, "time", 2f));
+            iTween.MoveTo(gameObject, iTween.Hash("position", movingTarget, "time", 5f));
             animator.SetFloat("Speed", 5f);
             yield return 1;
         }
@@ -89,6 +89,13 @@ public class Follow : MonoBehaviour
 
     }
 
+	IEnumerator StopAttack()
+	{
+		transform.rotation = Quaternion.identity;
+		animator.SetBool("Attacking", false);
+		yield return null;
+	}
+
     IEnumerator ChangeStandPostion(Controller.Position standPos)
     {
         yield return new WaitForSeconds(timeOffset);
@@ -112,7 +119,7 @@ public class Follow : MonoBehaviour
 //			transform.position = Vector3.Lerp(transform.position, new Vector3(1.8f, transform.position.y, transform.position.z)  + teamOffset, 6 * Time.deltaTime);
 //        }
 
-		transform.position = Vector3.Lerp(transform.position, teamLeader.position  + teamOffset, 6 * Time.deltaTime);
+		transform.position = Vector3.Lerp(transform.position, teamLeader.position  + teamOffset, Time.deltaTime);
     }
 
 
