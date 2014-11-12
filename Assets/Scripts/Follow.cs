@@ -5,17 +5,21 @@ public class Follow : MonoBehaviour
 {
     public float timeOffset;
     public int AttackingIndex;
+	public Transform teamLeader;
+
     private Vector3 moveDir = Vector3.zero;
     private CharacterController characterController;
     private Animator animator;
     private Controller.Position positionStand;
-
+	private Vector3 teamOffset;
+    
     // Use this for initialization
     void Start()
     {
         characterController = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
         positionStand = Controller.Position.Middle;
+		teamOffset = transform.position - teamLeader.position;
     }
     
     // Update is called once per frame
@@ -68,14 +72,21 @@ public class Follow : MonoBehaviour
 
     IEnumerator BackToLine(Vector3 leaderPostion)
     {
-        yield return new WaitForSeconds(timeOffset);
-        Vector3 movingTarget = leaderPostion;
-        movingTarget.z -= this.AttackingIndex * 0.8f;
+//        yield return new WaitForSeconds(timeOffset);
+//        Vector3 movingTarget = leaderPostion;
+//        movingTarget.z -= this.AttackingIndex * 0.8f;
+//
+//        iTween.MoveTo(gameObject, iTween.Hash("position", movingTarget, "time", 0.5f));
+		animator.SetBool("Attacking", false);
+        
+        while( transform.position != teamLeader.position + teamOffset)
+		{
+			CheckLane();
+			yield return 0;
+		}
 
-        iTween.MoveTo(gameObject, iTween.Hash("position", movingTarget, "time", 0.5f));
-        transform.rotation = Quaternion.identity;
+		transform.rotation = Quaternion.identity;
 
-        animator.SetBool("Attacking", false);
     }
 
     IEnumerator ChangeStandPostion(Controller.Position standPos)
@@ -86,20 +97,22 @@ public class Follow : MonoBehaviour
 
     private void CheckLane()
     {
-        if (positionStand == Controller.Position.Middle)
-        {
-            transform.position = Vector3.Lerp(transform.position, new Vector3(0, transform.position.y, transform.position.z), 6 * Time.deltaTime);
-        }
-        else
-        if (positionStand == Controller.Position.Left)
-        {
-            transform.position = Vector3.Lerp(transform.position, new Vector3(-1.8f, transform.position.y, transform.position.z), 6 * Time.deltaTime);
-        }
-        else
-        if (positionStand == Controller.Position.Right)
-        {
-            transform.position = Vector3.Lerp(transform.position, new Vector3(1.8f, transform.position.y, transform.position.z), 6 * Time.deltaTime);
-        }
+//        if (positionStand == Controller.Position.Middle)
+//        {
+//            transform.position = Vector3.Lerp(transform.position, new Vector3(0, transform.position.y, transform.position.z) + teamOffset, 6 * Time.deltaTime);
+//        }
+//        else
+//        if (positionStand == Controller.Position.Left)
+//        {
+//			transform.position = Vector3.Lerp(transform.position, new Vector3(-1.8f, transform.position.y, transform.position.z)  + teamOffset, 6 * Time.deltaTime);
+//        }
+//        else
+//        if (positionStand == Controller.Position.Right)
+//        {
+//			transform.position = Vector3.Lerp(transform.position, new Vector3(1.8f, transform.position.y, transform.position.z)  + teamOffset, 6 * Time.deltaTime);
+//        }
+
+		transform.position = Vector3.Lerp(transform.position, teamLeader.position  + teamOffset, 6 * Time.deltaTime);
     }
 
 
