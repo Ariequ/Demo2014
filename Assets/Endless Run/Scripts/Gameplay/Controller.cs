@@ -339,6 +339,8 @@ public class Controller : MonoBehaviour
     
     private void CheckLane()
     {
+        Debug.Log(positionStand + "directInput = " + directInput);
+
         if (positionStand == Position.Middle)
         {
             if (directInput == DirectionInput.Right)
@@ -348,7 +350,6 @@ public class Controller : MonoBehaviour
 //                  animation.Stop();
 //                  animationManager.animationState = animationManager.TurnRight;
 					animator.SetTrigger("Jump " + 1);
-                    moveDir.y += 3;
                 }
                 positionStand = Position.Right; 
                 //Play sfx when step
@@ -362,7 +363,6 @@ public class Controller : MonoBehaviour
 //                  animation.Stop();
 //                  animationManager.animationState = animationManager.TurnLeft;
 					animator.SetTrigger("Jump " + 1);
-					moveDir.y += 3;
                 }
                 positionStand = Position.Left;  
                 //Play sfx when step
@@ -370,12 +370,12 @@ public class Controller : MonoBehaviour
             }
 
             //transform.position = Vector3.Lerp(transform.position, new Vector3(0,transform.position.y,transform.position.z), 6 * Time.deltaTime);
-            if (transform.position.x > 0.05f)
+            if (transform.position.x > 0.1f)
             {
                 direction = Vector3.Lerp(direction, Vector3.left * 6, Time.deltaTime * 500);
             }
             else
-            if (transform.position.x < -0.05f)
+            if (transform.position.x < -0.1f)
             {
                 direction = Vector3.Lerp(direction, Vector3.right * 6, Time.deltaTime * 500);
             }
@@ -396,7 +396,6 @@ public class Controller : MonoBehaviour
 //                  animation.Stop();
 //                  animationManager.animationState = animationManager.TurnRight;
 					animator.SetTrigger("Jump " + 1);
-					moveDir.y += 3;
 
                 }
                 positionStand = Position.Middle;    
@@ -425,7 +424,6 @@ public class Controller : MonoBehaviour
 //                  animation.Stop();
 //                  animationManager.animationState = animationManager.TurnLeft;
 					animator.SetTrigger("Jump " + 1);
-					moveDir.y += 3;
                 }
                 positionStand = Position.Middle;
                 //Play sfx when step
@@ -839,20 +837,12 @@ public class Controller : MonoBehaviour
         transform.rotation = Quaternion.identity;
 		positionStand = Position.Middle;
 		countDeleyInput = 0;
+        direction = Vector3.zero;
 //      StartCoroutine(ContinueRun());
 
         foreach (Follow follow in follows)
         {
             follow.StartCoroutine("StopAttack");
         }
-    }
-
-    IEnumerator ContinueRun()
-    {
-        yield return new WaitForSeconds(5f);
-
-        transform.rotation = Quaternion.identity;
-
-        GameAttribute.gameAttribute.isAttacking = false;
     }
 }

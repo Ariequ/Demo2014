@@ -82,7 +82,7 @@ public class Follow : MonoBehaviour
         while( transform.position != teamLeader.position + teamOffset)
 		{
 			CheckLane();
-			yield return 0;
+			yield return 1;
 		}
 
 		transform.rotation = Quaternion.identity;
