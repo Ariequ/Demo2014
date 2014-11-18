@@ -38,6 +38,8 @@ public class GameAttribute : MonoBehaviour {
 	public static GameAttribute gameAttribute;
 	
 	void Awake(){
+        Application.targetFrameRate = 60;
+
 		//Setup all attribute
 		gameAttribute = this;
 		DontDestroyOnLoad(this);
